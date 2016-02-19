@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<title>test</title>
+		<style>
+			#debug {
+				width:100%;
+				height: 20px;
+				background-color: #444;
+				top: calc( 100% - 20px);
+				position: absolute;
+				font: 9px Verdana, Arial, sans-serif;
+				color: #ddd;
+				line-height: 20px;
+				text-indent: 10px;
+			}
+			* { padding: 0; margin: 0;}
+		</style>
+		<script src="lib/Point.min.js"></script>
+		<script src="lib/Piece.dev.js"></script>
+	</head>
+	<body>
+		<article id="debug"></article>
+		<canvas id="canvas" width="300" height="300" style="top:0px; left:0px; width: 300px; height: 300px;"></canvas>
+	</body>
+	<script>
+		var canvas;
+		var ctx;
+		var w = 0;
+		var h = 0;
+		var couleurs = new Array( '#f00','#0f0','#00f','#888');
+		var nbrTouch, pi1;
+		var touches = new Array();
+		
+		document.addEventListener('touchstart', function(event) {
+			event.preventDefault();
+			nbrTouch = event.touches.length;
+			if ( nbrTouch >= 3 && nbrTouch <6) {
+				// mets les points dans "touches"
+				touches = event.touches;
+				Mesure();
+			}
+		});
+				
+		function Mesure() {
+			p0 = new Point(touches[0].pageX, touches[0].pageY);
+			p1 = new Point(touches[1].pageX, touches[1].pageY);
+			p2 = new Point(touches[2].pageX, touches[2].pageY);
+			pi1 = new Piece(p0,p1,p2);//, 51.93);
+
+			
+			console.log("piece:",pi1);
+			document.getElementById('debug').innerHTML = pi1.toString();
+			console.log('idPiece= '+pi1.idPiece);
+			//console.log(pi1.id());
+			DrawDebug(pi1);
+	
+		}
+		/* dessine les empreintes de la piece */
+		function DrawDebug(piece) {
+			// reset affichage		
+			ctx.clearRect(0, 0, w, h);
+				
+			var points = new Array(piece.baseG, piece.baseD, piece.sat, piece.centre);
+			var len = points.length;
+			
+			for (var i=0; i<len; i++) {
+				var touch = points[i];
+				var px = touch.x;
+				var py = touch.y;
+				
+				// dessine à partir du centre en vertical et 3/4 droite
+				ctx.beginPath();
+				if (i == 3) {
+					ctx.arc(px + 3*w/4, py-(piece.sat.y/2)+h/2, 10, 0, 2*Math.PI, true);
+					ctx.lineWidth = 1.0;
+				} else {
+					ctx.arc(px + 3*w/4, py-(piece.sat.y/2)+h/2, 20, 0, 2*Math.PI, true);
+					ctx.lineWidth = 2.0;
+				}
+				ctx.strokeStyle = couleurs[i%couleurs.length];
+				ctx.stroke();
+			}
+		}
+		
+		function init() {
+			canvas = document.getElementById('canvas');
+			ctx = canvas.getContext('2d');
+			
+			var nw = window.innerWidth;
+			var nh = window.innerHeight;
+		
+			if ((w != nw) || (h != nh)) {
+				w = nw;
+				h = nh;
+				console.log(nw,nh);
+				canvas.style.width = w+'px';
+				canvas.style.height = h+'px';
+				canvas.width = w;
+				canvas.height = h;
+			}
+		}
+		init();
+	</script>
+</html>
