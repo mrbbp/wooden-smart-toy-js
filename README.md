@@ -73,9 +73,9 @@ I provide in the "lasercut_draw" folder:
 - 1 pdf file for eyes purpose
 
 You need conductive rubber tips. I've bought mine on alibaba from unicon rubber (http://www.alibaba.com/product-detail/silicone-conductive-rubber-soft-stylus-tip_517071997.html)
-My tips are 10mm long for a diameter of 6mm.
-I've used MDF 6mm (2 cut of 3mm MDF in fact)
-I've connected the three touch pods with copper tape from 3M (5mm) and add a "Collar Button Screw" (sorry for Goog translation) in contact with the copper tape
+My tips are 10mm long for a diameter of 6mm.<br/>
+I've used MDF 6mm (2 cut of 3mm MDF in fact)<br/>
+I've connected the three touch pods with copper tape from 3M (5mm) and add a "Collar Button Screw" (sorry for Goog translation) in contact with the copper tape<br/>
 ![bouton de col à visser](http://alysse-creations.info/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/o/bouton-col.jpg)
 ![custom lasercut Piece](lasercut_draw/reference_Design_web.jpg)
 
