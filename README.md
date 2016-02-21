@@ -14,7 +14,7 @@ The last pod is the satellite point which made the pattern, give the significant
 The satellite point is define by angle and distance from the middle point of the base, in polar's coords.
 The base width is fixe and always the smallest from the 3 pod's distance.
 
-
+###the non secret rest:
 To avoid screensize pb detection, i've decided to work in millimeter, but a web browser is enable to detect screen size (not resolution, but size 7, 9, 10 inches of the touchscreen)
 The lib use a variable to convert pixel to mm (it depend of the tablet model)
 
