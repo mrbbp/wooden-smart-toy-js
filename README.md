@@ -71,9 +71,10 @@ The Piece object is populated with some cool values about the detected piece.
 ### DIY Piece with laser cut
 
 I provide in the "lasercut_draw" folder:
-- 1 ai file (Illustrator 8 format) for making custom Piece for Trotek laser cut
-- 1 ai (Illustrator CS3 format) with model for custom Piece
-- 1 pdf file for eyes purpose
+- 1 ai file (Illustrator 8 format) for making custom Piece for Trotek laser cut "custom_piece_18mm_lasercut_ill8.ai"
+- 1 ai (Illustrator CS3 format) with model for custom Piece "lasercut_draw/custom_piece_18mm_model_cs3.ai"
+- 1 pdf file for eyes purpose "custom_piece_18mm_lasercut.pdf"
+- 1 pdf to print for cheap&quick experiments "reference_to_print.pdf"
 
 
 ####Cheapest and quickest (but lasercutless):
