@@ -105,8 +105,8 @@ My tips are 10mm long for a diameter of 6mm. They are cheap... few cents by unit
 ![bouton de col à visser](http://alysse-creations.info/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/o/bouton-col.jpg)<br>
 
 TO DO:
-- Cut the MDF panel in your favorite makerspace or fablab.<br>
-- Put and glue the conductive tips on the edge of one face of the laser cutted parts.<br>
+- Cut the MDF panel in your favorite makerspace or fablab with the design's pdf.<br>
+- Put and glue the conductive tips to the edge of one face of the laser cutted parts.<br>
 - Connect the three touch pods with bands of the 3M's copper tape.<br>
 - Screw the "Collar Button Screw" (drill a 3mm hole in the middle of the parts) and keep conduction way with the copper tape as in the picture below<br>
 
