@@ -104,7 +104,7 @@ Screw the "Collar Button Screw" (drill a 3mm hole in the middle of the piece) in
 ![custom lasercut Piece](lasercut_draw/reference_Design_web.jpg)<br>
 
 Patents for touch grid and conduction way between capacitive screen and body are in order patented by
-- Etienne Jean MINEUR and Bertrand DUPLAT from [édition Volumique](http://www.volumique.com) [FR 2995423, FR 2994752, FR 2970352]*
-- Marie Merouze [Mazbotic](http://www.marbotic.fr) [FR 3003661]*
+- Etienne Jean MINEUR and Bertrand DUPLAT, [édition Volumique](http://www.volumique.com) [FR 2995423, FR 2994752, FR 2970352]*
+- Marie MÉROUZE, [Marbotic](http://www.marbotic.fr) [FR 3003661]*
 
 *[N° Patents find on http://www.inpi.fr]
