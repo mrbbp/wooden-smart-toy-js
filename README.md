@@ -67,7 +67,6 @@ The Piece object is populated with some cool values about the detected piece.
 - <code>ecartBaseMM</code>: (Number) *the width of the base (in millimeters)*
 - <code>ecartBasePX</code>: (Number) *the width of the base (in pixels)*
 
-this.idPiece + ", this.rhoMM + ", this.theta +  this.anglePattern + ", this.ecartBaseMM + ", ecartBasePX= " + this.ecartBasePX + ", anglePiece = " + this.anglePiece + ", pattern reversed= "+ this.PatternInv+ ", piece reversed="+ this.PieceInv
 
 ### DIY Piece with laser cut
 
