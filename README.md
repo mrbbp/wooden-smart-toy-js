@@ -93,12 +93,12 @@ You need:
 My tips are 10mm long for a diameter of 6mm.<br>
 - MDF panel in 6mm thick (2 cut of 3mm MDF for me).<br>
 - Copper tape from 3M in 5mm (EMI shielding tape). I've found mine at Conrad, but [here from sparkfun](https://www.sparkfun.com/products/10561)
-- "Collar Button Screw" (sorry for Goog translation) in contact with the copper tape<br>
+- "Collar Button Screw"/"bouton de col à visser"  (sorry for Goog translation)<br>
 ![bouton de col à visser](http://alysse-creations.info/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/o/bouton-col.jpg)<br>
 
-Put and paste the conductive tips on the edge of one face of the laser cutted piece.
+Put and glue the conductive tips on the edge of one face of the laser cutted piece.
 Connect the three touch pods with bands of the 3M's copper tape.<br>
-Add a "Collar Button Screw"/"bouton de col à visser" (sorry for Goog translation) in contact with the copper tape as in the picture below<br>
+Screw the "Collar Button Screw" (drill a 3mm hole in the middle of the piece) in contact with the copper tape as in the picture below<br>
 
 
 ![custom lasercut Piece](lasercut_draw/reference_Design_web.jpg)<br>
