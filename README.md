@@ -1,4 +1,4 @@
-# wooden-smart-toy
+# wooden smart toy - DIY custom touch patterns - js
 ####A js port from a previous as3 lib to detect and identify on iPad, iPhone and some Android Device<br/>patented wooden pieces created and sold by Marbotic.fr <br>lib works too with DIY parts with custom touch pattern (see below)
 
 ![marbotic wooden pieces] (http://www.marbotic.fr/wp-content/uploads/2013/11/chiffres-rond-400x400.jpg) ![marbotic wooden pieces - back view] (http://www.marbotic.fr/wp-content/uploads/2013/11/chiffres-picots-400x400.jpg)
