@@ -72,15 +72,15 @@ The Piece object is populated with some cool values about the detected piece.
 ### DIY Piece with laser cut
 
 I provide in the "lasercut_draw" folder:
-- 1 ai file (Illustrator 8 format) for making custom Piece for Trotek laser cut "custom_piece_18mm_lasercut_ill8.ai"
-- 1 ai (Illustrator CS3 format) with model for custom Piece "lasercut_draw/custom_piece_18mm_model_cs3.ai"
-- 1 pdf file for eyes purpose "custom_piece_18mm_lasercut.pdf"
-- 1 pdf to print for cheap&quick experiments "reference_to_print.pdf"
+- [1 ai file](lasercut_draw/custom_piece_18mm_lasercut_ill8.ai) (Illustrator 8 format) for making custom Piece for Trotek laser cut
+- [1 ai file](lasercut_draw/custom_piece_18mm_model_cs3.ai) (Illustrator CS3 format) with model for custom Piece
+- [1 pdf file](lasercut_draw/custom_piece_18mm_lasercut.pdf) for reference purpose
+- [1 pdf to print](lasercut_draw/reference_to_print.pdf) for cheap & quick experiments
 
 
 ####Cheapest and quickest (but lasercutless):
 You need to:
-- print at 100% the pdf, cut a pattern and glue on a piece of cardboard.
+- print at 100% the [pdf](lasercut_draw/reference_to_print.pdf), cut a pattern and glue on a piece of cardboard.
 - Use 3 brass pinholders to design a pattern (2 pins for base pods and satellite one).
 - connect the 3 pinholders with a conductive wire (brass)<br>
 Handle this DIY Piece by the wire to maintain a conduction from the pattern on the back to your fingers.
