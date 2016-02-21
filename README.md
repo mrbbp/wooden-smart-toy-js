@@ -3,9 +3,11 @@
 
 ![marbotic wooden pieces] (http://www.marbotic.fr/wp-content/uploads/2013/11/chiffres-rond-400x400.jpg) ![marbotic wooden pieces - back view] (http://www.marbotic.fr/wp-content/uploads/2013/11/chiffres-picots-400x400.jpg)
 
-I've just done reverse engineering to find a way to detect and read Touch patterns.
+I've just done reverse engineering to find a way to detect and read Touch patterns from Marbotic.
 
-To avoid stress to Marbotic's Founder, i decide to NOT publish in this js lib, the patterns used by Marbotic's smartNumbers & SmartLetters, but with some work, it's easy to find (at my first attempt, i've used a copymachine, a ruler and a protractor)
+To avoid stress to Marbotic's Founder, i decide to NOT publish in this js lib, the patterns used by Marbotic's smartNumbers & SmartLetters, but with some work, it's easy to find (at my first attempt, i've used a copymachine, a ruler and a protractor).<br>
+
+This lib works with pattern made of 3 pods, by following the design rules, the is easy to implement to work with 4 pods (more stable parts).
 
 ###the secret part:
 Each Touch Piece is connected to touchscreen by 3 touch pods with specific configuration.<br />
