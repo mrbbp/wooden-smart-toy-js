@@ -7,7 +7,7 @@ I've just done reverse engineering to find a way to detect and read Touch patter
 
 To avoid stress to Marbotic's Founder, i decide to NOT publish in this js lib, the patterns used by Marbotic's smartNumbers & SmartLetters, but with some work, it's easy to find (at my first attempt, i've used a copymachine, a ruler and a protractor).<br>
 
-This lib works with pattern made of 3 pods, by following the design rules, the is easy to implement to work with 4 pods (more stable parts).
+This lib works with pattern made of 3 pods, by following the design rules, the lib is easy to implement to work with 4 pods (more stable parts).
 
 ###the secret part:
 Each Touch Piece is connected to touchscreen by 3 touch pods with specific configuration.<br />
