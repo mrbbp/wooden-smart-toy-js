@@ -20,8 +20,8 @@ The base width is fixe and always the smallest from the 3 pod's distance.
 To avoid screensize pb detection, i've decided to work in millimeter, but a web browser is enable to detect screen size (not resolution, but size 7, 9, 10 inches of the touchscreen)
 The lib use a variable to convert pixel to mm (it depend of the tablet model)
 
-The detection on **Android Device** is not as accurate as expected and in many case the detection is false. 
-It is an hardware touchscreen accuratie problem... cheap hardware are not enough accurate for this task than more expensive hardware as High end tablets like Samsung or Apple.
+The detection on **Android Device** is not as accurate as expected and in too many case the detection is wrong (id found). 
+It is an hardware touchscreen accuracy problem... cheap hardware are not enough precise for this task than more expensive hardware as High end tablets like Samsung's or Apple's.<br>
 
 With <code>navigator.userAgent</code> you're able to detect "iPad" or "iPhone" string.
 At this point there is few hardware (only 3 size for iPad). You must ask to your user to select the right model and store answer in <code>localStorage</code> or use a specific value for your hardware.
