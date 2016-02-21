@@ -14,10 +14,11 @@ The last pod is the satellite point which made the pattern, give the significant
 The satellite point is define by angle and distance from the middle point of the base, in polar's coords.
 The base width is fixe and always the smallest from the 3 pod's distance.
 
+
 To avoid screensize pb detection, i've decided to work in millimeter, but a web browser is enable to detect screen size (not resolution, but size 7, 9, 10 inches of the touchscreen)
 The lib use a variable to convert pixel to mm (it depend of the tablet model)
 
-The detection on *Android Device* is not as accurate as expected and in many case the detection is false. 
+The detection on **Android Device** is not as accurate as expected and in many case the detection is false. 
 It is an hardware touchscreen accuratie problem... cheap hardware are not enough accurate for this task than more expensive hardware as High end tablets like Samsung or Apple.
 
 With <code>navigator.userAgent</code> you're able to detect "iPad" or "iPhone" string.
@@ -29,9 +30,9 @@ Hope this will help!
 
 As a port of an as3 lib, i've used a js port of Point() as3's lib from Moagrius
 https://github.com/moagrius/Point
-I provide a minified version of his lib for conveniance.
+I provide a minified version of his lib for your convenience.
 
-To use it you need at least 3 touch points on screen to instanciate a new Piece with 3 TouchPoint.
+To use it you need at least 3 touch points on screen to instanciate a new Piece with 3 Points.
 ```js
 <script src="lib/Point.min.js"></script>
 <script src="lib/Piece.dev.js"></script>
