@@ -32,7 +32,7 @@ I'm not developer, just graphic & interaction designer, i do apologize for my ba
 Hope this will help!
 
 
-*As a port of an as3 lib, i've used a js port of Point() as3's lib from [Moagrius](https://github.com/moagrius/Point)<br>
+*As a port of an as3 lib, i've used a js port of Point() as3's lib from [@Moagrius](https://github.com/moagrius/Point)<br>
 I provide a minified version of his lib for your convenience.*
 
 To use it you need at least 3 touch points on screen to instanciate a new Piece with 3 Points.
