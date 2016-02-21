@@ -5,7 +5,7 @@
 
 I've just done reverse engineering to find a way to detect and read Touch patterns.
 
-To avoid stress to Marbotic's Founder, i decide to NOT publish in this js lib, the patterns used by Marbotic's smartNumbers & SmartLetters, but with some work, it's easy to find (at my first attempt, i've used a scanner, a ruler and a protractor)
+To avoid stress to Marbotic's Founder, i decide to NOT publish in this js lib, the patterns used by Marbotic's smartNumbers & SmartLetters, but with some work, it's easy to find (at my first attempt, i've used a copymachine, a ruler and a protractor)
 
 ###the secret part:
 Each Touch Piece is connected to touchscreen by 3 touch pods with specific configuration.<br />
@@ -83,18 +83,18 @@ Handle this DIY Piece by the wire to maintain a conduction from the pattern on t
 
 ####Less cheap, less quick:
 You need:
-- conductive rubber tips. I've bought mine on alibaba from [unicon rubber](http://www.alibaba.com/product-detail/silicone-conductive-rubber-soft-stylus-tip_517071997.html)
+- conductive rubber tips. I've bought mine on alibaba from [unicon rubber](http://www.alibaba.com/product-detail/silicone-conductive-rubber-soft-stylus-tip_517071997.html)<br>
 My tips are 10mm long for a diameter of 6mm.<br>
 - MDF 6mm (2 cut of 3mm MDF in fact).<br>
 - Copper tape from 3M in 5mm (EMI shielding tape). I've found mine at Conrad
 - "Collar Button Screw" (sorry for Goog translation) in contact with the copper tape<br>
-
-You need conductive rubber tips. I've bought mine on alibaba from [unicon rubber](http://www.alibaba.com/product-detail/silicone-conductive-rubber-soft-stylus-tip_517071997.html)
-My tips are 10mm long for a diameter of 6mm.<br>
-I've used MDF 6mm (2 cut of 3mm MDF in fact).<br>
-I've connected the three touch pods with copper tape from 3M (5mm) and add a "Collar Button Screw"/bouton de col à visser (sorry for Goog translation) in contact with the copper tape<br>
-
 ![bouton de col à visser](http://alysse-creations.info/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/o/bouton-col.jpg)<br>
+
+Put and paste the conductive tips on the edge of one face of the laser cutted piece.
+Connect the three touch pods with bands of the 3M's copper tape.<br>
+Add a "Collar Button Screw"/"bouton de col à visser" (sorry for Goog translation) in contact with the copper tape as in the picture below<br>
+
+
 ![custom lasercut Piece](lasercut_draw/reference_Design_web.jpg)<br>
 
 Patents for touch grid and conduction way between capacitive screen and body are patented by
