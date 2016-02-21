@@ -72,13 +72,14 @@ I provide in the "lasercut_draw" folder:
 - 1 ai (Illustrator CS3 format) with model for custom Piece
 - 1 pdf file for eyes purpose
 
-<<<<<<< HEAD
+
 ####Cheapest and quickest:
 You need to:
 - print at 100% the pdf, cut a pattern and glue on a piece of cardboard.
 - Use 3 brass pinholders to design a pattern (2 pins for base pods and satellite one).
 - connect the 3 pinholders with a conductive wire (brass)<br>
 Handle this DIY Piece by the wire to maintain a conduction from the pattern on the back to your fingers.
+![Cheap prototype](lasercut_draw/reference_prototype_paperpinholder.jpg)
 
 ####Less cheap, less quick:
 You need:
@@ -87,12 +88,12 @@ My tips are 10mm long for a diameter of 6mm.<br>
 - MDF 6mm (2 cut of 3mm MDF in fact).<br>
 - Copper tape from 3M in 5mm (EMI shielding tape). I've found mine at Conrad
 - "Collar Button Screw" (sorry for Goog translation) in contact with the copper tape<br>
-=======
+
 You need conductive rubber tips. I've bought mine on alibaba from unicon rubber (http://www.alibaba.com/product-detail/silicone-conductive-rubber-soft-stylus-tip_517071997.html)
 My tips are 10mm long for a diameter of 6mm.<br>
 I've used MDF 6mm (2 cut of 3mm MDF in fact).<br>
 I've connected the three touch pods with copper tape from 3M (5mm) and add a "Collar Button Screw" (sorry for Goog translation) in contact with the copper tape<br>
->>>>>>> origin/master
+
 ![bouton de col à visser](http://alysse-creations.info/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/o/bouton-col.jpg)<br>
 ![custom lasercut Piece](lasercut_draw/reference_Design_web.jpg)<br>
 
