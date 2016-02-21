@@ -73,7 +73,7 @@ I provide in the "lasercut_draw" folder:
 - 1 pdf file for eyes purpose
 
 
-####Cheapest and quickest:
+####Cheapest and quickest (but lasercutless):
 You need to:
 - print at 100% the pdf, cut a pattern and glue on a piece of cardboard.
 - Use 3 brass pinholders to design a pattern (2 pins for base pods and satellite one).
@@ -81,12 +81,13 @@ You need to:
 Handle this DIY Piece by the wire to maintain a conduction from the pattern on the back to your fingers.
 ![Cheap prototype](lasercut_draw/reference_prototype_paperpinholder.jpg)
 
-####Less cheap, less quick:
+####Less cheap, less quick (but more lasercut):
 You need:
 - conductive rubber tips. I've bought mine on alibaba from [unicon rubber](http://www.alibaba.com/product-detail/silicone-conductive-rubber-soft-stylus-tip_517071997.html)<br>
+!(lasercut_draw/uniconrubber_tips.jpg)
 My tips are 10mm long for a diameter of 6mm.<br>
-- MDF 6mm (2 cut of 3mm MDF in fact).<br>
-- Copper tape from 3M in 5mm (EMI shielding tape). I've found mine at Conrad
+- MDF panel in 6mm thick (2 cut of 3mm MDF for me).<br>
+- Copper tape from 3M in 5mm (EMI shielding tape). I've found mine at Conrad, but [here from sparkfun](https://www.sparkfun.com/products/10561)
 - "Collar Button Screw" (sorry for Goog translation) in contact with the copper tape<br>
 ![bouton de col à visser](http://alysse-creations.info/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/o/bouton-col.jpg)<br>
 
