@@ -57,13 +57,17 @@ To use it you need at least 3 touch points on screen to instanciate a new Piece 
 ```
 
 The Piece object is populated with some cool values about the detected piece.
-- <code>id</code>: *the Piece's id*
-- <code>angle</code>: *orientation of the piece on the screen*
-- <code>reverse</code>: *is the piece reverse on the screen? (some pieces have reversed pattern, this is __not__ what it return)*
-- <code>alpha</code>: *the angle of the pattern on the wood piece (in degres)*
-- <code>rho</code>: *satellite point's angle vs the base (in degres)*
-- <code>theta</code>: *satellite point's distance from the base (in millimeters)*
-- <code>baseWidth</code>: *the width of the base (in millimeters)*
+- <code>idPiece</code>: *the Piece's id* (what you design)
+- <code>anglePiece</code>: *orientation of the piece on the screen*
+- <code>PieceInv</code>: (Boolean) *is the piece reverse on the screen? (some pieces have reversed pattern, this is __not__ what it return)*
+- <code>PatternInv</code>: (Boolean) *is the pattern reverse on the piece? (some pieces have reversed pattern)*
+- <code>anglePattern</code>: (Number) *the angle of the pattern on the wood piece (in degres)* (what you design)
+- <code>rhoMM</code>: (Number) *satellite point's distance from the base (in millimeters)*
+- <code>theta</code>: (Number) *satellite point's angle vs the base (in degres)*
+- <code>ecartBaseMM</code>: (Number) *the width of the base (in millimeters)*
+- <code>ecartBasePX</code>: (Number) *the width of the base (in pixels)*
+
+this.idPiece + ", this.rhoMM + ", this.theta +  this.anglePattern + ", this.ecartBaseMM + ", ecartBasePX= " + this.ecartBasePX + ", anglePiece = " + this.anglePiece + ", pattern reversed= "+ this.PatternInv+ ", piece reversed="+ this.PieceInv
 
 ### DIY Piece with laser cut
 
@@ -98,8 +102,8 @@ Add a "Collar Button Screw"/"bouton de col à visser" (sorry for Goog translatio
 
 ![custom lasercut Piece](lasercut_draw/reference_Design_web.jpg)<br>
 
-Patents for touch grid and conduction way between capacitive screen and body are patented by
+Patents for touch grid and conduction way between capacitive screen and body are in order patented by
 - Etienne Jean MINEUR and Bertrand DUPLAT from [édition Volumique](http://www.volumique.com) [FR 2995423, FR 2994752, FR 2970352]*
-- Marie Merouze [Mazrbotic](http://www.marbotic.fr) [FR 3003661]*
+- Marie Merouze [Mazbotic](http://www.marbotic.fr) [FR 3003661]*
 
 *[N° Patents find on http://www.inpi.fr]
