@@ -23,14 +23,15 @@ It is an hardware touchscreen accuratie problem... cheap hardware are not enough
 
 With <code>navigator.userAgent</code> you're able to detect "iPad" or "iPhone" string.
 At this point there is few hardware (only 3 size for iPad). You must ask to your user to select the right model and store answer in <code>localStorage</code> or use a specific value for your hardware.
-By default (cause i work with), the lib use the iPad mini value.
+By default (cause i'm working with), the lib use the iPad mini value.
+
 
 I'm not developer, just graphic & interaction designer, i do apologize for my bad english and my hugly code.
 Hope this will help!
 
-As a port of an as3 lib, i've used a js port of Point() as3's lib from Moagrius
-https://github.com/moagrius/Point
-I provide a minified version of his lib for your convenience.
+
+*As a port of an as3 lib, i've used a js port of Point() as3's lib from [Moagrius](https://github.com/moagrius/Point)<br>
+I provide a minified version of his lib for your convenience.*
 
 To use it you need at least 3 touch points on screen to instanciate a new Piece with 3 Points.
 ```js
