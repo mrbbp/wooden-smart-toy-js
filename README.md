@@ -7,7 +7,7 @@ I've just done reverse engineering to find a way to detect and read Touch patter
 
 To avoid stress to Marbotic's Founder, i decide to NOT publish in this js lib, the patterns used by Marbotic's smartNumbers & SmartLetters, but with some work, it's easy to find (at my first attempt, i've used a scanner, a ruler and a protractor)
 
-##the secret part:
+###the secret part:
 Each Touch Piece is connected to touchscreen by 3 touch pods with specific configuration.<br />
 Two pods are for the "base" (always the same width).<br/>
 The last pod is the satellite point which made the pattern, give the significant part.<br/>
@@ -17,7 +17,7 @@ The base width is fixe and always the smallest from the 3 pod's distance.
 To avoid screensize pb detection, i've decided to work in millimeter, but a web browser is enable to detect screen size (not resolution, but size 7, 9, 10 inches of the touchscreen)
 The lib use a variable to convert pixel to mm (it depend of the tablet model)
 
-The detection on Android Device is not as accurate as expected and in many case the detection is false. 
+The detection on *Android Device* is not as accurate as expected and in many case the detection is false. 
 It is an hardware touchscreen accuratie problem... cheap hardware are not enough accurate for this task than more expensive hardware as High end tablets like Samsung or Apple.
 
 With <code>navigator.userAgent</code> you're able to detect "iPad" or "iPhone" string.
@@ -65,7 +65,7 @@ The Piece object is populated with some cool values about the detected piece.
 - <code>theta</code>: *satellite point's distance from the base (in millimeters)*
 - <code>baseWidth</code>: *the width of the base (in millimeters)*
 
-## DIY Piece with laser cut
+### DIY Piece with laser cut
 
 I provide in the "lasercut_draw" folder:
 - 1 ai file (Illustrator 8 format) for making custom Piece for Trotek laser cut
