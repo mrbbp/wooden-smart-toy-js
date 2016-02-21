@@ -57,7 +57,7 @@ To use it you need at least 3 touch points on screen to instanciate a new Piece 
 ```
 
 The Piece object is populated with some cool values about the detected piece.
-- <code>id</code>: *the number for the Smart Numbers*
+- <code>id</code>: *the Piece's id*
 - <code>angle</code>: *orientation of the piece on the screen*
 - <code>reverse</code>: *is the piece reverse on the screen? (some pieces have reversed pattern, this is __not__ what it return)*
 - <code>alpha</code>: *the angle of the pattern on the wood piece (in degres)*
