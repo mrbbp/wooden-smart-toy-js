@@ -83,22 +83,22 @@ Handle this DIY Piece by the wire to maintain a conduction from the pattern on t
 
 ####Less cheap, less quick:
 You need:
-- conductive rubber tips. I've bought mine on alibaba from unicon rubber (http://www.alibaba.com/product-detail/silicone-conductive-rubber-soft-stylus-tip_517071997.html)
+- conductive rubber tips. I've bought mine on alibaba from [unicon rubber](http://www.alibaba.com/product-detail/silicone-conductive-rubber-soft-stylus-tip_517071997.html)
 My tips are 10mm long for a diameter of 6mm.<br>
 - MDF 6mm (2 cut of 3mm MDF in fact).<br>
 - Copper tape from 3M in 5mm (EMI shielding tape). I've found mine at Conrad
 - "Collar Button Screw" (sorry for Goog translation) in contact with the copper tape<br>
 
-You need conductive rubber tips. I've bought mine on alibaba from unicon rubber (http://www.alibaba.com/product-detail/silicone-conductive-rubber-soft-stylus-tip_517071997.html)
+You need conductive rubber tips. I've bought mine on alibaba from [unicon rubber](http://www.alibaba.com/product-detail/silicone-conductive-rubber-soft-stylus-tip_517071997.html)
 My tips are 10mm long for a diameter of 6mm.<br>
 I've used MDF 6mm (2 cut of 3mm MDF in fact).<br>
-I've connected the three touch pods with copper tape from 3M (5mm) and add a "Collar Button Screw" (sorry for Goog translation) in contact with the copper tape<br>
+I've connected the three touch pods with copper tape from 3M (5mm) and add a "Collar Button Screw"/bouton de col à visser (sorry for Goog translation) in contact with the copper tape<br>
 
 ![bouton de col à visser](http://alysse-creations.info/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/o/bouton-col.jpg)<br>
 ![custom lasercut Piece](lasercut_draw/reference_Design_web.jpg)<br>
 
 Patents for touch grid and conduction way between capacitive screen and body are patented by
-- Etienne Jean MINEUR and Bertrand DUPLAT from http://www.volumique.com [FR 2995423, FR 2994752, FR 2970352]*
-- Marie Merouze http://www.marbotic.fr [FR 3003661]*
+- Etienne Jean MINEUR and Bertrand DUPLAT from [édition Volumique](http://www.volumique.com) [FR 2995423, FR 2994752, FR 2970352]*
+- Marie Merouze [Mazrbotic](http://www.marbotic.fr) [FR 3003661]*
 
 *[N° Patents find on http://www.inpi.fr]
