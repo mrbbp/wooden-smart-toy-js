@@ -82,7 +82,12 @@ I provide in the "lasercut_draw" folder:
 
 
 ####Cheapest and quickest (but lasercutless):
-You need to:
+You need:
+- a printer
+- 3 brass pinholders
+- brass wire or conductive wire
+
+TO DO:
 - print at 100% the [pdf](lasercut_draw/reference_to_print.pdf), cut a pattern and glue on a piece of cardboard.
 - Use 3 brass pinholders to design a pattern (2 pins for base pods and satellite one).
 - connect the 3 pinholders with a conductive wire (brass)<br>
@@ -99,6 +104,7 @@ My tips are 10mm long for a diameter of 6mm. They are cheap... few cents by unit
 - "Collar Button Screw"/"bouton de col à visser"  (sorry for Goog translation)<br>
 ![bouton de col à visser](http://alysse-creations.info/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/o/bouton-col.jpg)<br>
 
+TO DO:
 - Cut the MDF panel in your favorite makerspace or fablab.<br>
 - Put and glue the conductive tips on the edge of one face of the laser cutted parts.<br>
 - Connect the three touch pods with bands of the 3M's copper tape.<br>
