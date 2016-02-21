@@ -92,7 +92,7 @@ Handle this DIY Piece by the wire to maintain a conduction from the pattern on t
 ####Less cheap, less quick (but more lasercut):
 You need:
 - conductive rubber tips. I've bought mine on alibaba from [unicon rubber](http://www.alibaba.com/product-detail/silicone-conductive-rubber-soft-stylus-tip_517071997.html)<br>
-!(lasercut_draw/uniconrubber_tips.jpg)
+![tips](lasercut_draw/uniconrubber_tips.jpg)
 My tips are 10mm long for a diameter of 6mm.<br>
 - MDF panel in 6mm thick (2 cut of 3mm MDF for me).<br>
 - Copper tape from 3M in 5mm (EMI shielding tape). I've found mine at Conrad, but [here from sparkfun](https://www.sparkfun.com/products/10561)
